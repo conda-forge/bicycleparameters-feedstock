@@ -16,14 +16,15 @@ needed for the Whipple bicycle model.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/bicycleparameters-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/bicycleparameters-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/bicycleparameters-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/bicycleparameters-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/bicycleparameters-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/bicycleparameters-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/bicycleparameters-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/bicycleparameters-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/bicycleparameters/badges/version.svg)](https://anaconda.org/conda-forge/bicycleparameters)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/bicycleparameters/badges/downloads.svg)](https://anaconda.org/conda-forge/bicycleparameters)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-bicycleparameters-green.svg)](https://anaconda.org/conda-forge/bicycleparameters) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/bicycleparameters.svg)](https://anaconda.org/conda-forge/bicycleparameters) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/bicycleparameters.svg)](https://anaconda.org/conda-forge/bicycleparameters) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/bicycleparameters.svg)](https://anaconda.org/conda-forge/bicycleparameters) |
 
 Installing bicycleparameters
 ============================
