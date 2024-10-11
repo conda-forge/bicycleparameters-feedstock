@@ -14,7 +14,7 @@ Development: https://github.com/moorepants/bicycleparameters
 Documentation: http://bicycleparameters.readthedocs.io/
 
 A python program designed to produce and manipulate the basic parameters
-needed for the Whipple bicycle model.
+needed for the Carvallo-Whipple bicycle model and other related models.
 
 
 Current build status
