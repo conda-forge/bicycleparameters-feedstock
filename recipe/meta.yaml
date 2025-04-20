@@ -36,12 +36,8 @@ requirements:
 
 test:
   requires:
-    - numpydoc >=1.2
     - pytest
     - python {{ python_min }}
-    - sphinx >=4.3.2
-    - sphinx-gallery
-    - sphinx-reredirects
   imports:
     - bicycleparameters
     - bicycleparameters.bicycle
