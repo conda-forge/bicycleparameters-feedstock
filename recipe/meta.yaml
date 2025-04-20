@@ -36,7 +36,6 @@ requirements:
 
 test:
   requires:
-    - pytest
     - python {{ python_min }}
   imports:
     - bicycleparameters
@@ -52,8 +51,6 @@ test:
     - bicycleparameters.plot
     - bicycleparameters.rider
     - bicycleparameters.tables
-  commands:
-    - pytest bicycleparameters
 
 about:
   home: http://github.com/moorepants/bicycleparameters
