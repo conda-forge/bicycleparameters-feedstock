@@ -1,6 +1,6 @@
 {% set name = "BicycleParameters" %}
-{% set version = "1.3.0" %}
-{% set sha256 = "d9ce8e8f08437e5ffe99d57348da1a5de0bd0403f670ca14742cb55b2e151354" %}
+{% set version = "1.5.0" %}
+{% set sha256 = "8abdbe29e1cf273f7a7b8f1c7b74407a105c673fe3c36569eed517686a3e68f8" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name|lower }}-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name|lower }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
@@ -24,15 +24,16 @@ requirements:
     - setuptools
   run:
     - dynamicisttoolkit >=0.5.3
-    - matplotlib-base >=3.5.1
-    - numpy >=1.21.5
+    - matplotlib-base >=3.6.3
+    - numpy >=1.26.4
     - python >={{ python_min }}
-    - scipy >=1.8.0
-    - uncertainties >=3.1.5
-    - yeadon >=1.3.0
+    - pyyaml >=6.0.1
+    - scipy >=1.11.4
+    - uncertainties >=3.1.7
+    - yeadon >=1.4.0
   run_constrained:
     - dash >=2
-    - pandas >=1.3.5
+    - pandas >=2.1.4
 
 test:
   requires:
