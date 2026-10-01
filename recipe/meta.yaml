@@ -1,6 +1,6 @@
 {% set name = "BicycleParameters" %}
-{% set version = "1.5.1" %}
-{% set sha256 = "12b1359481da82b751261baf1d953cd4428fb1517b3e1d463bf9eb9a3f675319" %}
+{% set version = "1.5.2" %}
+{% set sha256 = "2e7de9faa67a6ee3c7c5afe599a442d512552bcfefe6e497689004eaa3200736" %}
 
 package:
   name: {{ name|lower }}
